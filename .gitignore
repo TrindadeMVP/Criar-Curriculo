@@ -1,0 +1,10 @@
+node_modules/
+android/
+dist-windows/
+web/vendor/jspdf.umd.min.js
+web/vendor/LICENSE-jspdf.txt
+.DS_Store
+__pycache__/
+
+portable/windows/web/
+dist-portable/

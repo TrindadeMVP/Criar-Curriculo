@@ -1,0 +1,8 @@
+{
+  "appId": "com.geradorcurriculos.app",
+  "appName": "Gerador de Currículos",
+  "webDir": "web",
+  "android": {
+    "allowMixedContent": false
+  }
+}
