@@ -74,6 +74,12 @@ jobs:
           npm run check
           npm run test:unit
 
+      - name: Verificar exportação PDF dos 15 modelos no Chromium
+        run: |
+          python3 -m pip install --quiet playwright pypdf
+          python3 -m playwright install chromium
+          python3 tests/test_pdf_ideal_isolated.py
+
       - name: Gerar projeto Android
         run: |
           npx cap add android
